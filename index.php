@@ -22,7 +22,58 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div id="top">
+          <div id="title">
+            <h1>LensLabs</h1>
+          </div>
+          <div id="menu">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Discuss</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+        
+        
+        <div id="main">
+
+          <div id="nr2" class="tool">
+            <h3>LensToy</h3>
+            <p>A gravitational lens simulator in Javascript/HTML5</p>
+          </div>
+
+          <div id="nr3" class="tool">
+            <h3>MOWGLI</h3>
+            <p>Manually Operated Widget for Gravitational Lens Identification</p>
+          </div>
+
+          <div id="nr4" class="tool">
+            <h3>LensA</h3>
+            <p>Some one line description</p>
+          </div>
+
+          <div id="nr1" class="tool">
+            <h3>SpaghettiLens</h3>
+            <p>Some one line description</p>
+          </div>
+
+          <div id="forum" class="tool forum">
+            <h3>Forum</h3>
+            <p>Discuss models</p>
+          </div>
+          
+        </div>        
+        
+        <div id="foot">
+          <p>some remark that need to be added here</p>
+        </div>
+        
+        
+        
+        
+        
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
