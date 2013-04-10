@@ -96,28 +96,25 @@ textarea {
 
 html {
   color: #fff;
-  background-color: #000000;
+  background-color: #202020;
 }
 
 body {
   width: 1000px;
   /*min-height: 600px;*/
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #006;
+  margin: 10px auto;
 }
 
 
 
 #top {
   width: 950px;
-  height: 200px;
   margin: 0 auto;
-  background-color: #000;
+  /*background-color: #222;*/
   
   background-repeat:no-repeat;
   background-position: right center;
-  background-image: url('../img/lenslabs.png');
+  background-image: url('../img/lenslabs2.png');
 }
 
 #title {
@@ -127,7 +124,6 @@ body {
 
 #menu {
   width: 100%;
-  height: 50px;
   margin: 0;
 }
 
@@ -142,7 +138,7 @@ body {
   height: 50px;
   margin: 50px auto 25px;
   
-  background-color: #000;
+  /*background-color: #000;*/
   color: #666;
   vertical-align: middle;
 }
@@ -151,17 +147,19 @@ body {
 
 
 h1 {
-  padding: 0.8em 0.5em;
-  font-size: 2em;
-  color: #ff0;
+  padding: 1em 1em;
+  font-size: 3em;
+  color: rgb(66, 154, 190);
 }
 
 #menu ul {
+  margin: 0px;
 }
 
 #menu li {
   display: inline-block;
   padding: 0.2em 1em;
+  margin: 0px;
 }
 
 #menu li:hover {
@@ -172,11 +170,11 @@ h1 {
   display: block;
   height: 75px;
   width: 90%;
-  margin: 20px auto;
+  margin: 20px auto 0px auto;
   /*padding: 5px 5px;*/
   
   background-color:#000;
-  box-shadow: 5px 5px 5px #003;
+  box-shadow: 5px 5px 5px #111;
   background-repeat:no-repeat;
   background-position: right center;
   background-image: url('../img/noimg.png');
@@ -188,7 +186,7 @@ h1 {
   margin: 0.5em 10em 0.2em 20px;
   padding: 0.2em 0em 0.2em 0em;
   font-size: 1.5em;
-  color: #0ff;
+  color: rgb(66, 154, 190);
 }
 
 .tool p {
@@ -199,7 +197,7 @@ h1 {
 }
 
 .tool:hover{
-  box-shadow: 5px 5px 5px #ccc;
+  box-shadow: 5px 5px 5px #333;
 }
 
 #nr1 {
@@ -216,6 +214,76 @@ h1 {
 
 #forum {
   background-image: url('../img/forum.png');
+}
+
+.toolinfo {
+  /*display: none;*/
+  padding: 10px 5px 10px 5px;
+  background: #000;
+  width: 800px;
+  min-height: 100px;
+  margin: 0 auto;
+ 
+  box-shadow: 5px 5px 5px #111;
+
+}
+
+.toolinfo .screenshot {
+  margin: 10px;
+  padding: 0;
+  width: 380px;
+  min-height: 200px;
+  float: right;
+  /*border: dashed 1px #fff;*/
+}
+
+.toolinfo .description {
+  margin: 10px;
+  padding: 0;
+  width: 780px;
+  /*border: dashed 1px #fff;*/
+}
+
+
+.toolinfo .buttons {
+  margin: 0;
+  padding: 0;
+}
+
+.toolinfo .end {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+
+.toolinfo ul {
+  list-style: none;
+  width: 380px;
+  margin: 10px;
+  border: dashed #ccc 1px;
+  padding: 5px 0 5px 0;
+}
+
+.toolinfo li {
+  padding: 2px 0 2px 50px;
+  background-repeat: no-repeat;
+  background-position: 20px 33%;
+  background-size: 20px 20px;
+}
+
+.toolinfo li:hover {
+  background-color: #ccc;
+}
+
+.toolinfo .use {
+  background-image: url(../img/btn_go_w.png);
+}
+.toolinfo .demo {
+  background-image: url(../img/btn_demo_w.png);
+}
+.toolinfo .src {
+  background-image: url(../img/btn_src_w.png);
 }
 
 

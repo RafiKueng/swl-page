@@ -16,6 +16,19 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
+
+
+<?php
+  $whitelist = array("about", "tools", "discuss", "contact", "sources");
+  if(isset($_GET['page']) and in_array($_GET['page'], $whitelist)) {
+    $page = $_GET['page'].".php";
+  }
+  else {
+    $page = 'about.php';
+  }
+?>
+
+
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -28,10 +41,11 @@
           </div>
           <div id="menu">
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Discuss</li>
-              <li>Contact</li>
+              <li><a href="index.php?page=about">About</a></li>
+              <li><a href="index.php?page=tools">Tools</a></li>
+              <li><a href="index.php?page=discuss">Discuss</a></li>
+              <li><a href="index.php?page=contact">Contact</a></li>
+              <li><a href="index.php?page=sources">Sources</a></li>
             </ul>
           </div>
         </div>
@@ -39,30 +53,7 @@
         
         <div id="main">
 
-          <div id="nr2" class="tool">
-            <h3>LensToy</h3>
-            <p>A gravitational lens simulator in Javascript/HTML5</p>
-          </div>
-
-          <div id="nr3" class="tool">
-            <h3>MOWGLI</h3>
-            <p>Manually Operated Widget for Gravitational Lens Identification</p>
-          </div>
-
-          <div id="nr4" class="tool">
-            <h3>LensA</h3>
-            <p>Some one line description</p>
-          </div>
-
-          <div id="nr1" class="tool">
-            <h3>SpaghettiLens</h3>
-            <p>Some one line description</p>
-          </div>
-
-          <div id="forum" class="tool forum">
-            <h3>Forum</h3>
-            <p>Discuss models</p>
-          </div>
+        <?php include($page); ?>
           
         </div>        
         
