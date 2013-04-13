@@ -1,0 +1,37 @@
+{
+
+// Short name of the tool
+"Name": "SpaghettiLens",
+
+// one line (~80char description)
+"ShortDescr": "Create mass models by identifing lensed images",
+
+// long description, can contain html, pay attention to escaping..
+"LongDescr": "SpaghettiLens is based on Fermat's principle. The user input is a guessed image classification and a sketch of saddle-point contours, using a mouse. The program then generates mass models and synthetic images.<br/>Usable in a recent browser on every OS, or as a stand alone application on any linux.<br/>Uses Jonathans Coles' GLASS as backend modeller software.<br/>Written in html5 + javascript for the front end, python (django) for the backend and GLASS.<br/>Gets data from the MasterLens Database and SpaceWraps project.",
+
+// url to screenshot (will be scaled to width of 380px)
+// only filename if in same folder as this file, otherwise whole url
+"ScreenshotURL": "",
+
+// url to banner, exactly 100px hegth, max 700px width
+// right aligned background image of title bar
+"BannerURL": "spaghetti.png",
+
+/**
+ * The following items will show up in the "actions box" of
+ * your tool, if not empty.
+ */
+
+// url to live version of the tool
+"UseItURL": "http://mite.physik.uzh.ch/",
+
+// url to help page
+"HelpURL": "https://github.com/RafiKueng/LensTools/wiki",
+
+// url to screencast / video for demonstartion
+"ScreencastURL": "http://www.youtube.com",
+
+// url to source code / github repro
+"SourcesURL": "https://github.com/RafiKueng/LensTools"
+
+}

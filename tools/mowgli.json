@@ -1,0 +1,37 @@
+{
+
+// Short name of the tool
+"Name": "MOWGLI",
+
+// one line (~80char description)
+"ShortDescr": "Manually Operated Widget for Gravitational Lens Identification",
+
+// long description, can contain html, pay attention to escaping..
+"LongDescr": "",
+
+// url to screenshot (will be scaled to width of 380px)
+// only filename if in same folder as this file, otherwise whole url
+"ScreenshotURL": "",
+
+// url to banner, exactly 100px hegth, max 700px width
+// right aligned background image of title bar
+"BannerURL": "mowgli.png",
+
+/**
+ * The following items will show up in the "actions box" of
+ * your tool, if not empty.
+ */
+
+// url to live version of the tool
+"UseItURL": "http://www.ephysics.org/mowgli/",
+
+// url to help page
+"HelpURL": "http://www.ephysics.org/mowgli/",
+
+// url to screencast / video for demonstartion
+"ScreencastURL": "",
+
+// url to source code / github repro
+"SourcesURL": ""
+
+}

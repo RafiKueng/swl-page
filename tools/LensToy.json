@@ -1,0 +1,13 @@
+{
+"Name": "LensToy",
+"ShortDescr": "A gravitational lens simulator in Javascript/HTML5",
+"LongDescr": "",
+
+"ScreenshotURL": "",
+"BannerURL": "lenstoy.png",
+
+"UseItURL": "http://slowe.github.io/LensToy/",
+"HelpURL": "https://github.com/slowe/LensToy/blob/master/README.md",
+"ScreencastURL": "",
+"SourcesURL": "https://github.com/slowe/LensToy"
+}

@@ -1,0 +1,37 @@
+{
+
+// Short name of the tool
+"Name": "LensA",
+
+// one line (~80char description)
+"ShortDescr": "Powerful modelling tool for even exotic configurations",
+
+// long description, can contain html, pay attention to escaping..
+"LongDescr": "Written by Layne Wright (gumbosea) from the Galaxy Zoo lens hunters community, LensA is very close to their discussion. It pays more attention to exotic configurations (multiple-planes etc) than other lens modelling programs.<br/>Currently written in C++ and only available on Windows, with plans to be ported.",
+
+// url to screenshot (will be scaled to width of 380px)
+// only filename if in same folder as this file, otherwise whole url
+"ScreenshotURL": "",
+
+// url to banner, exactly 100px hegth, max 700px width
+// right aligned background image of title bar
+"BannerURL": "",
+
+/**
+ * The following items will show up in the "actions box" of
+ * your tool, if not empty.
+ */
+
+// url to live version of the tool
+"UseItURL": "http://google.com",
+
+// url to help page
+"HelpURL": "",
+
+// url to screencast / video for demonstartion
+"ScreencastURL": "",
+
+// url to source code / github repro
+"SourcesURL": ""
+
+}
