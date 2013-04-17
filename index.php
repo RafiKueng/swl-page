@@ -14,6 +14,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" />
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
 
@@ -68,6 +69,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/slimbox2.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 

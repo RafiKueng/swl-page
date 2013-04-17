@@ -72,7 +72,11 @@ foreach($files as $file)
   <p>". $t->ShortDescr ."</p>
 </div>
 <div class='toolinfo'>
-  <div class='screenshot'><img src=".$t->ScreenshotURL." alt='Screenshot' width='380' /> </div>
+  <div class='screenshot'>
+    <a href='".$t->ScreenshotURL."' rel='lightbox' title='".$t->Name ."'>
+      <img src='".$t->ScreenshotURL."' alt='". $t->ShortDescr ."' width='380' />
+    </a>
+  </div>
   <div class='buttons'>
     <ul>
       <li class='use'><a href='".$t->UseItURL."'>use it</a></li>\n"
@@ -88,12 +92,6 @@ foreach($files as $file)
 ?>
 
 
-<!-- overlay for screenshot display -->
-<div id="overlay">
-  <div id="overlaycont">
-    <img id="overlayimg" src="img/noscr.png" alt=""/>
-  </div>
-</div>
 
 
 
