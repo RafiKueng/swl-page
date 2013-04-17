@@ -322,36 +322,6 @@ h1 {
 
 
 
-#overlay {
-  visibility: hidden;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width:100%;
-  height:100%;
-  text-align:center;
-  z-index: 1000;
-  background-color: rgba(255, 0, 0, 0.5)
-}
-
-#overlaycont {
-  margin: 0 auto;
-  position: absolute;
-  top: 50px;
-  bottom: 50px;
-  width: auto;
-  background-color: #ff0;
-}
-
-#overlayimg {
-  min-width: 100%;
-  height: auto;
-  margin: 100px auto;
-  background-color: #fff;
-  border:1px solid #000;
-  padding:15px;
-  text-align:center;
-}
 
 
 
