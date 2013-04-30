@@ -24,8 +24,9 @@ $('.tool').click(function(event) {
   //event.preventDefault();
   xToggleHeight($(this).next());
 });
+
 $('.toolinfo').click(function(event) {
-  event.preventDefault();
+  //event.preventDefault();
   xToggleHeight($(this).parent());
 });
 
@@ -68,3 +69,12 @@ $(".buttons li").click(function(){
         location.href = $(this).find("a").attr("href");
 });
 */
+
+$(".buttons li a").click(function(evt){
+  evt.stopPropagation();
+  this.click();
+});
+
+$(".toolinfo .description").click(function(evt){
+  evt.stopPropagation();
+});

@@ -6,7 +6,8 @@
 // one line (~80char description)
 "ShortDescr": "",
 
-// long description, can contain html, pay attention to escaping..
+// long description, can contain html, pay attention to escaping.. NO newlines..
+// use <h3> for titles, <br/> <p> <a> allowed
 "LongDescr": "",
 
 // url to screenshot (will be scaled to width of 380px)
@@ -22,8 +23,11 @@
  * your tool, if not empty.
  */
 
-// url to live version of the tool
+// url to live version of the tool, mandatory
 "UseItURL": "",
+
+// url to home page
+"HomeURL": "",
 
 // url to help page
 "HelpURL": "",

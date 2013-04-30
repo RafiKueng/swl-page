@@ -134,12 +134,13 @@ a:visited {
 }
 
 #title {
-  height: 150px;
+  height: 160px;
   margin: 0;
 }
 
 #menu {
   width: 100%;
+  height: 40px;
   margin: 0;
 }
 
@@ -159,6 +160,16 @@ a:visited {
   vertical-align: middle;
 }
 
+#foot a {
+  color: #888;
+}
+#foot a:hover {
+  color: rgb(66, 154, 190);
+  background-color: #000;
+}
+#foot a:visited {
+  color: #888;
+}
 
 
 
@@ -182,30 +193,45 @@ h1 {
   background-color: #000;
 }
 
-.tool {
+
+.article {
   display: block;
-  height: 75px;
   width: 90%;
-  margin: 20px auto 0px auto;
+  margin: 10px auto 0px auto;
   /*padding: 5px 5px;*/
   
   background-color:#000;
   box-shadow: 5px 5px 5px #111;
-  background-repeat:no-repeat;
-  background-position: right center;
-  background-image: url('../img/noimg.png');
   
   color:#CCC;
 }
 
-.tool h3 {
+
+.tool {
+  height: 75px;
+  
+  background-repeat:no-repeat;
+  background-position: right center;
+  background-image: url('../img/noimg.png');
+}
+
+h2 {
   margin: 0.5em 10em 0.2em 20px;
   padding: 0.2em 0em 0.2em 0em;
   font-size: 1.5em;
   color: rgb(66, 154, 190);
 }
 
-.tool p {
+h3 {
+  display: block;
+  margin: 0px;
+  padding: 0.5em 0em 0.2em 0em;
+  font-size: 1em;
+  color: rgb(66, 154, 190);
+}
+
+
+.article p {
   margin: 0.0em 10em 0.2em 20px;
   padding: 0.0em 0em 0.2em 0em;
   font-size: 1em;
@@ -214,18 +240,6 @@ h1 {
 
 .tool:hover{
   box-shadow: 5px 5px 5px #333;
-}
-
-#nr1 {
-  background-image: url('../img/spaghetti.png');
-}
-
-#nr2 {
-  background-image: url('../img/lenstoy.png');
-}
-
-#nr3 {
-  background-image: url('../img/mowgli.png');
 }
 
 #forum {
@@ -283,9 +297,9 @@ h1 {
 }
 
 .toolinfo li {
-  padding: 2px 0 2px 50px;
+  padding: 2px 0 2px 0px;
   background-repeat: no-repeat;
-  background-position: 20px 33%;
+  background-position: 15px 33%;
   background-size: 20px 20px;
 }
 
@@ -293,14 +307,18 @@ h1 {
   background-color: #ccc;
 }
 
+/*action buttons backgrounds*/
+.toolinfo .home {
+  background-image: url(../img/btn_home_w.png);
+}
 .toolinfo .use {
   background-image: url(../img/btn_go_w.png);
 }
 .toolinfo .hlp {
-  background-image: url(../img/btn_demo_w.png);
+  background-image: url(../img/btn_help_w.png);
 }
 .toolinfo .scr {
-  background-image: url(../img/btn_src_w.png);
+  background-image: url(../img/btn_video_w.png);
 }
 .toolinfo .src {
   background-image: url(../img/btn_src_w.png);
@@ -308,7 +326,8 @@ h1 {
 
 
 .toolinfo li a {
-  width: 100%;
+  padding-left: 50px;
+  width: 330px;
   display: block;
 }
 

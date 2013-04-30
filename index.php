@@ -59,7 +59,15 @@
         </div>        
         
         <div id="foot">
-          <p>some remark that need to be added here</p>
+          <p>SpaceWrapsLabs
+            (author: rafael kueng; 
+            using:
+            <a href="http://jquery.com/">jquery 1.9.1</a>,
+            <a href="http://html5boilerplate.com/">h5bp 4.2.0</a>,
+            <a href="http://www.digitalia.be/software/slimbox2">slimbox 2.04</a>,
+            <a href="http://necolas.github.io/normalize.css/">normalize.css</a>,
+            <a href="https://en.wikipedia.org/wiki/File:Gravitational-lensing-angles.png">wikimedia</a>,)
+          </p>
         </div>
         
         

@@ -1,4 +1,4 @@
 <div class="article">
-  <h3>article</h3>
+  <h2>article</h2>
   <p>this is an article</p>
 </div>
