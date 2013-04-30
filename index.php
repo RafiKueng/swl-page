@@ -38,7 +38,7 @@
         <!-- Add your site or application content here -->
         <div id="top">
           <div id="title">
-            <h1>LensLabs</h1>
+            <h1>SpaceWraps Labs</h1>
           </div>
           <div id="menu">
             <ul>
@@ -46,7 +46,7 @@
               <li><a href="index.php?page=tools">Tools</a></li>
               <li><a href="index.php?page=discuss">Discuss</a></li>
               <li><a href="index.php?page=contact">Contact</a></li>
-              <li><a href="index.php?page=sources">Sources</a></li>
+              <li><a href="index.php?page=sources">Add your Tool</a></li>
             </ul>
           </div>
         </div>
@@ -66,7 +66,7 @@
             <a href="http://html5boilerplate.com/">h5bp 4.2.0</a>,
             <a href="http://www.digitalia.be/software/slimbox2">slimbox 2.04</a>,
             <a href="http://necolas.github.io/normalize.css/">normalize.css</a>,
-            <a href="https://en.wikipedia.org/wiki/File:Gravitational-lensing-angles.png">wikimedia</a>,)
+            <a href="https://en.wikipedia.org/wiki/File:Gravitational-lensing-angles.png">wikimedia</a>)
           </p>
         </div>
         

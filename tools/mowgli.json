@@ -15,7 +15,7 @@
 
 // url to banner, exactly 100px hegth, max 700px width
 // right aligned background image of title bar
-"BannerURL": "mowgli.png",
+"BannerURL": "mowgli_bnr.png",
 
 /**
  * The following items will show up in the "actions box" of

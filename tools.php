@@ -57,7 +57,7 @@ foreach($files as $file)
 
 
   if (property_exists($t, 'BannerURL')) {
-    if ($t->BannerURL=='') {$t->BannerURL = 'tools/noimg.png';}
+    if ($t->BannerURL=='') {$t->BannerURL = 'tools/nobnr.png';}
     else if (file_exists('tools/' . $t->BannerURL)) {$t->BannerURL = 'tools/' . $t->BannerURL;}
   }
   else {$t->BannerURL = 'tools/noimg.png';}
@@ -70,6 +70,7 @@ foreach($files as $file)
   if (property_exists($t, 'HelpURL') && $t->HelpURL !== '') {$a=$a."      <li class='hlp'><a href='".$t->UseItURL."'>view help page</a></li>\n";}
   if (property_exists($t, 'ScreencastURL') && $t->ScreencastURL !== '') {$a=$a."      <li class='scr'><a href='".$t->ScreencastURL."'>view demonstration / screencast</a></li>\n";}
   if (property_exists($t, 'SourcesURL') && $t->SourcesURL !== '') {$a=$a."      <li class='src'><a href='".$t->SourcesURL."'>view sources</a></li>\n";}
+  if (property_exists($t, 'PaperURL') && $t->PaperURL !== '') {$a=$a."      <li class='ppr'><a href='".$t->PaperURL."'>view paper</a></li>\n";}
 
   
   echo "

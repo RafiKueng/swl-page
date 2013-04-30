@@ -11,11 +11,11 @@
 
 // url to screenshot (will be scaled to width of 380px)
 // only filename if in same folder as this file, otherwise whole url
-"ScreenshotURL": "",
+"ScreenshotURL": "spaghetti_scr.png",
 
 // url to banner, exactly 100px hegth, max 700px width
 // right aligned background image of title bar
-"BannerURL": "spaghetti.png",
+"BannerURL": "spaghetti_bnr.png",
 
 /**
  * The following items will show up in the "actions box" of
@@ -32,6 +32,9 @@
 "ScreencastURL": "http://www.youtube.com",
 
 // url to source code / github repro
-"SourcesURL": "https://github.com/RafiKueng/LensTools"
+"SourcesURL": "https://github.com/RafiKueng/LensTools",
+
+// url to paper
+"PaperURL": "http://some.paper.somewhere"
 
 }

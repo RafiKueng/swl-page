@@ -21,5 +21,5 @@
 <div class="article">
   <h2>How to add your tool?</h2>
   <p>Check out the source of this page at <a href="https://github.com/RafiKueng/lenslabs-page">github</a>. Create a new json file (<a href="https://github.com/RafiKueng/lenslabs-page/blob/master/tools/Tool.json.template">template</a>) and the accoring images in the /tools direcorty and send a pull request.</p>
-  <p>Alternativly, fill in <a href="index.php?page=form">this form</a>, save it and send it with the images to rafik [at] physik.uzh.ch.</p>
+  <p>Alternativly, fill in <a href="index.php?page=form">this form</a>, save it and send the resulting txt file with the images to rafik [at] physik.uzh.ch.</p>
 </div>

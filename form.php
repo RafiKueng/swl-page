@@ -34,6 +34,9 @@
     <label>URL to source code:</label>
     <input name="SourceURL">
 
+    <label>URL to paper:</label>
+    <input name="PaperURL">
+
     <input id="submit" name="submit" type="submit" value="Submit">
 
   </form>

@@ -1,4 +1,4 @@
 <div class="article">
-  <h2>article</h2>
-  <p>this is an article</p>
+  <h2>About SpaceWraps Labs</h2>
+  <p>Here we present ourselves.. or maybe even have a news section or something</p>
 </div>
