@@ -20,7 +20,7 @@
 
 
 <?php
-  $whitelist = array("about", "tools", "discuss", "contact", "sources");
+  $whitelist = array("about", "tools", "discuss", "contact", "sources", "form");
   if(isset($_GET['page']) and in_array($_GET['page'], $whitelist)) {
     $page = $_GET['page'].".php";
   }
