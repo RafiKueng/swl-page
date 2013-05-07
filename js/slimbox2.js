@@ -12,8 +12,14 @@ if (!/android|iphone|ipod|series60|symbian|windows ce|blackberry/i.test(navigato
       /* Put custom options here */
       overlayFadeDuration: 200,
       resizeDuration: 200,
-      }, null, function(el) {
-      return (this == el) || ((this.rel.length > 8) && (this.rel == el.rel));
-    });
+      },
+      /*links mapper*/
+      function(el) {
+        return [el.href, $(el).data('name') + "<br/>" + $(el).data('descr')];
+      },
+      function(el) {
+        return (this == el) || ((this.rel.length > 8) && (this.rel == el.rel));
+      }
+    );
   });
 }

@@ -13,9 +13,10 @@
   <ul>
     <li>the homepage</li>
     <li>a running version</li>
-    <li>help  introduction page</li>
+    <li>a help or introduction page</li>
     <li>a screen cast / demo video</li>
-    <li>the sources</li>
+    <li>the source code</li>
+    <li>a corresponding paper</li>
   </ul>
 </div>
 <div class="article">

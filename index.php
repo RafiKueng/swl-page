@@ -1,3 +1,22 @@
+<?php
+  $whitelist = array("about", "tools", "discuss", "contact", "sources", "form");
+  if(isset($_GET['id'])) {
+    $page = 'direct.php';
+  }
+  else if(isset($_GET['page']) and in_array($_GET['page'], $whitelist)) {
+    if ($_GET['page'] == "discuss") {
+      header ("HTTP/1.1 301 Moved Permanently");
+      header ("Location: http://talk.spacewarps.org/");
+      exit(); 
+    }
+    $page = $_GET['page'].".php";
+  }
+  else {
+    $page = 'about.php';
+  }
+?> 
+
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -19,16 +38,6 @@
     </head>
 
 
-<?php
-  $whitelist = array("about", "tools", "discuss", "contact", "sources", "form");
-  if(isset($_GET['page']) and in_array($_GET['page'], $whitelist)) {
-    $page = $_GET['page'].".php";
-  }
-  else {
-    $page = 'about.php';
-  }
-?>
-
 
     <body>
         <!--[if lt IE 7]>
@@ -38,7 +47,7 @@
         <!-- Add your site or application content here -->
         <div id="top">
           <div id="title">
-            <h1>SpaceWraps Labs</h1>
+            <h1>Space Warps Labs</h1>
           </div>
           <div id="menu">
             <ul>
