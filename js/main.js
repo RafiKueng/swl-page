@@ -20,7 +20,7 @@ $(".tool").each(function(){
  * http://stackoverflow.com/questions/1335461/jquery-slide-is-jumpy
  * 
  */
-$('.tool').click(function(event) {
+$('.tool.big').click(function(event) {
   //event.preventDefault();
   xToggleHeight($(this).next());
 });

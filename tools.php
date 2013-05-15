@@ -74,7 +74,7 @@ foreach($files as $file)
 
   
   echo "
-<div class='tool article' style='background-image: url(" . $t->BannerURL . ");'>
+<div class='tool big article' style='background-image: url(" . $t->BannerURL . ");'>
   <h2>".$t->Name ."</h2>
   <p>". $t->ShortDescr ."</p>
 </div>

@@ -1,8 +1,8 @@
 
 <div class="article">
-  <h2>Image / Lens IDXXX</h2>
+  <h2>Image / Lens ID: <?php echo $_GET['id']; ?></h2>
   <img src='http://www.spacewarps.org/subjects/standard/CFHTLS_082_0176_gri.png'/>
-  <p>some infos about this image??</p>
+  <p>some infos about this image if availbable??</p>
   <p>start discussing this image on the forums or modelling it with one of these tools:</p>
 </div>
 
@@ -11,6 +11,7 @@
   <h2>Forum</h2>
   <p>Discuss this image on the forum</p>
   <p>there are X comments and Y posts.</p>
+  <p>a click leads to http://talk.spacewarps.org/#/subjects/<?php echo $_GET['id']; ?></p>
 </div>
 
 

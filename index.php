@@ -68,9 +68,8 @@
         </div>        
         
         <div id="foot">
-          <p>SpaceWrapsLabs
-            (author: rafael kueng; 
-            using:
+          <p><a href="mailto:rafik[replace.this.with.at}physik.uzh.ch">Space Warps Labs</a>
+            (using:
             <a href="http://jquery.com/">jquery 1.9.1</a>,
             <a href="http://html5boilerplate.com/">h5bp 4.2.0</a>,
             <a href="http://www.digitalia.be/software/slimbox2">slimbox 2.04</a>,
